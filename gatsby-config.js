@@ -8,7 +8,7 @@ module.exports = {
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-mdx',
+
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -16,6 +16,7 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    'gatsby-plugin-mdx',
     // {
     //   resolve: 'gatsby-source-filesystem',
     //   options: {
